@@ -285,38 +285,7 @@ This project is created for educational purposes.
 
 <div align="center">
 
-### 🌟 Happy Coding! 🌟
 
-**Made with ❤️ and Python**
-
-[![Python](https://img.shields.io/badge/Python-Programming-blue?style=flat&logo=python)](https://www.python.org/)
-[![Data Science](https://img.shields.io/badge/Data-Science-green?style=flat&logo=pandas)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-Computing-orange?style=flat&logo=numpy)](https://numpy.org/)
-
-</div>
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this repository and submit pull requests for any improvements!
-
-## 📧 Contact
-
-For questions or feedback, please open an issue in this repository.
-
----
-
-<div align="center">
-
-**⭐ Star this repository if you find it helpful! ⭐**
-
-</div>
-
-# 📊✨ Data-Analysis Notebooks Collection ✨📊
-&gt; Because science should sparkle ✨
-
----
 
 ## 🔖 What’s Inside?
 Two Jupyter notebooks that turn raw CSVs into **actionable insights** with style 🕶️:
@@ -355,21 +324,55 @@ Avg discount: 15.2 %
 Avg unit price: $10 453
 Total sales value: $15.2 M
 🖥️ Running in Google Colab
+
 Open any .ipynb in GitHub → click “Open in Colab” badge (top of notebook).
+
 Cell 1 mounts Drive & fetches CSVs automatically—zero local setup.
 🧪 Running in VS-Code
 Install the Jupyter extension → open folder → choose kernel from your venv → Run All.
+
 🐞 Troubleshooting
+
 | Problem                  | Quick Fix                                      |
 | ------------------------ | ---------------------------------------------- |
 | `ModuleNotFoundError`    | `pip install -r requirements.txt`              |
 | Plots not showing in Lab | `%matplotlib inline` *(first cell)*            |
 | CSV fetch fails          | Check Google Drive link permissions *(public)* |
 | High RAM usage           | Restart kernel & run only selected tags        |
+
 🤝 Contributing
 PRs welcome!
+
 Fork 🍴
 Feature branch (git checkout -b feat/amazing-viz)
 Commit with emoji (git commit -m "✨ Add 3-D scatter")
 Push & open PR
 
+
+### 🌟 Happy Coding! 🌟
+
+**Made with ❤️ and Python**
+
+[![Python](https://img.shields.io/badge/Python-Programming-blue?style=flat&logo=python)](https://www.python.org/)
+[![Data Science](https://img.shields.io/badge/Data-Science-green?style=flat&logo=pandas)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Computing-orange?style=flat&logo=numpy)](https://numpy.org/)
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests for any improvements!
+
+## 📧 Contact
+
+For questions or feedback, please open an issue in this repository.
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you find it helpful! ⭐**
+
+</div>
