@@ -312,3 +312,25 @@ For questions or feedback, please open an issue in this repository.
 **⭐ Star this repository if you find it helpful! ⭐**
 
 </div>
+
+# 📊✨ Data-Analysis Notebooks Collection ✨📊
+&gt; Because science should sparkle ✨
+
+---
+
+## 🔖 What’s Inside?
+Two Jupyter notebooks that turn raw CSVs into **actionable insights** with style 🕶️:
+
+| Notebook | Emoji Tagline | Main Mission |
+|---|---|---|
+| `Assignment_4.ipynb` | 🏥📊 *“Hospital Billing Deep-Dive”* | Clean, merge & analyse patient billing data; build final dashboard-style summary. |
+| `Assignment3.ipynb` | 🛍️💸 *“Sales & Discount Detective”* | Descriptive analytics + gorgeous visuals for sales, discounts & revenue trends. |
+
+---
+
+## 🚀 Quick-Start (30 sec)
+1. Clone / download repo.  
+2. Install deps:  
+   ```bash
+   pip install -r requirements.txt
+   # (pandas numpy matplotlib seaborn scipy)
