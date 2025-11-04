@@ -334,3 +334,42 @@ Two Jupyter notebooks that turn raw CSVs into **actionable insights** with style
    ```bash
    pip install -r requirements.txt
    # (pandas numpy matplotlib seaborn scipy)
+   
+📈 Highlights You’ll See
+
+   | Feature          | Assignment 4 🏥                 | Assignment 3 🛍️                  |
+| ---------------- | ------------------------------- | --------------------------------- |
+| 🔧 Data cleaning | Duplicates, NaNs, dtype fixes   | Zero missing values               |
+| 📊 EDA           | Dept-wise revenue aggregation   | Distribution skew & kurtosis      |
+| 🎨 Visuals       | Revenue tables + payment status | Histograms, pair-plots, heat-maps |
+| 🔗 Advanced      | Merge, concat, impute, groupby  | 450-row descriptive deep-dive     |
+| 💾 Export        | `Final_Hospital_Analysis.csv`   | PNG/SVG auto-saved plots          |
+
+🎯 Key Numbers @ Finish Line
+Hospital
+Cardiology revenue leader: $16.2 k
+Mean bill after imputation: $6 233
+Payment split: 5 Paid 🟢 | 2 Pending 🟡
+Retail
+Avg discount: 15.2 %
+Avg unit price: $10 453
+Total sales value: $15.2 M
+🖥️ Running in Google Colab
+Open any .ipynb in GitHub → click “Open in Colab” badge (top of notebook).
+Cell 1 mounts Drive & fetches CSVs automatically—zero local setup.
+🧪 Running in VS-Code
+Install the Jupyter extension → open folder → choose kernel from your venv → Run All.
+🐞 Troubleshooting
+| Problem                  | Quick Fix                                      |
+| ------------------------ | ---------------------------------------------- |
+| `ModuleNotFoundError`    | `pip install -r requirements.txt`              |
+| Plots not showing in Lab | `%matplotlib inline` *(first cell)*            |
+| CSV fetch fails          | Check Google Drive link permissions *(public)* |
+| High RAM usage           | Restart kernel & run only selected tags        |
+🤝 Contributing
+PRs welcome!
+Fork 🍴
+Feature branch (git checkout -b feat/amazing-viz)
+Commit with emoji (git commit -m "✨ Add 3-D scatter")
+Push & open PR
+
